@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Lista de Tarefas</title>
 </head>
 <body>
-    <h1class="todo-title">Lista de Tarefas ✍</h1>
+    <div class="todo">
+        <h1 class="todo-title">Lista de Tarefas ✍</h1>
     <p>Hoje</p>
-    <button></button>
-    <ul>
-        <li>
-            <input type="checkbox">
-            <p>Estudar ToDo</p>
-            <button></button>
-        </li>
-    </ul>
+    <button class="create-button"></button>
+    <div>
+        <ul class="todo-list">
+            <li class="todo-item">
+                <input type="checkbox">
+                <p>Estudar ToDo</p>
+                <button class="delete-button"></button>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <script src="script.js" type="module" defer></script>
 </body>
 </html>
